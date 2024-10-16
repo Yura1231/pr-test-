@@ -2,8 +2,8 @@ import React from 'react';
 
 export const RegistrationButton = () => {
   const openRegistrationForm = () => {
-    const registrationUrl = '/register'; // URL сторінки реєстрації
-    window.open(registrationUrl, '_blank'); // Відкриває нову вкладку
+    const registrationUrl = '/register'; 
+    window.open(registrationUrl, '_blank'); 
   };
 
   return (

@@ -14,7 +14,7 @@ export const Home = () => {
         <Tab label="Нове" />
         <Tab label="Популярне " />
       </Tabs>
-      <Grid container spacing={4}>
+      <Grid container spacing={4}>  
         <Grid xs={8} item>
           {[...Array(5)].map(() => (
             <Post
